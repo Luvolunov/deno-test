@@ -6,7 +6,7 @@ app.use((ctx) => {
   ctx.response.body = `
     <!DOCTYPE html>
     <html>
-      <head><title>Hello oak!</title><head>
+      <head><title>Ммм, кальянчик</title><head>
       <body>
         <h1>Привет всем на кальянной!!!</h1>
         <h2>Почему не работаем? :)</h2>
