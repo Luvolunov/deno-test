@@ -6,10 +6,19 @@ app.use((ctx) => {
   ctx.response.body = `
     <!DOCTYPE html>
     <html>
-      <head><title>Ммм, кальянчик</title><head>
+      <head>
+        <title>Ммм, кальянчик</title>
+        <style>
+          body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }      
+        </style>
+      <head>
       <body>
-        <h1>Привет всем на кальянной!!!</h1>
-        <h2>Почему не работаем? :)</h2>
+        <h1>Пока сидите на кальянной, там...</h1>
+        <img src="https://raw.githubusercontent.com/Luvolunov/deno-test/main/img.png" />
       </body>
     </html>
   `;
